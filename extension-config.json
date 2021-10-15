@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "id": "@shopgate-project/ext-static-availability-stockinfo-text",
+  "id": "@shopgate-project/static-availability-stockinfo-text",
   "components": [
     {
       "id": "StaticStockInfoText",
@@ -16,15 +16,6 @@
     }
   ],
   "configuration": {
-    "apiToken": {
-      "type": "admin",
-      "destination": "backend",
-      "default": "c2hvcGdhdGU6JU5NWHh4cCFDNiU5WlJkPA==",
-      "params": {
-        "label": "Live pricing API authentication token",
-        "type": "text"
-      }
-    },
     "staticStockInfoText": {
       "type": "admin",
       "destination": "frontend",
