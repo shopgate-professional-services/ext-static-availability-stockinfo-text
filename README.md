@@ -1,0 +1,1 @@
+# ext-static-availability-stockinfo-text
