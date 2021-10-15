@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/ext-static-availability-stockinfo-text",
+  "components": [
+    {
+      "id": "StaticStockInfoText",
+      "type": "portals",
+      "path": "frontend/portals/StaticStockInfoText",
+      "target": "product.stock-info"
+    },
+    {
+      "id": "StaticAvailabilityText",
+      "type": "portals",
+      "path": "frontend/portals/StaticAvailabilityText",
+      "target": "product.availability"
+    }
+  ],
+  "configuration": {
+    "apiToken": {
+      "type": "admin",
+      "destination": "backend",
+      "default": "c2hvcGdhdGU6JU5NWHh4cCFDNiU5WlJkPA==",
+      "params": {
+        "label": "Live pricing API authentication token",
+        "type": "text"
+      }
+    },
+    "staticStockInfoText": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": {
+        "text": "",
+        "styles": {},
+        "show": false
+      },
+      "params": {
+        "label": "Config to set a static text to replace the default stock info text with",
+        "type": "json"
+      }
+    },
+    "staticAvailabilityText": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": {
+        "text": "",
+        "styles": {},
+        "show": false
+      },
+      "params": {
+        "label": "Config to set a static text to replace the default availability text with",
+        "type": "json"
+      }
+    }
+  }
+}
