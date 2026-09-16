@@ -1,0 +1,12 @@
+{
+  "staticStockInfoText": {
+    "text": "",
+    "styles": {},
+    "show": false
+  },
+  "staticAvailabilityText": {
+    "text": "",
+    "styles": {},
+    "show": false
+  }
+}

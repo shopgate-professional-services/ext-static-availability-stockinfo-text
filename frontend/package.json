@@ -1,6 +1,6 @@
 {
   "name": "@shopgate-project/static-availability-stockinfo-text",
-  "version": "1.0.1-beta.1",
+  "version": "1.0.1",
   "description": "This extension overwrites the availability text or the stock info text on the PDP.",
   "license": "Apache-2.0",
   "scripts": {
